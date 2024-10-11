@@ -3,7 +3,7 @@ const pageConfig = {
   title: "ynsc133's Flare Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://github.com/ynsc133', label: 'GitHub' },
+    { link: 'https://github.com/pretty3568', label: 'GitHub' },
     { link: 'https://blog.mary.us.kg', label: 'Blog' },
     { link: 'mailto:ynsc133@gmail.com', label: 'Email Me', highlight: true },
   ],
