@@ -21,6 +21,8 @@ monitors: [
       name: 'Notion博客',
       method: 'GET',
       target: 'https://blog.mary.us.kg',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://blog.mary.us.kg',
       timeout: 10000,
     },
     {
@@ -28,6 +30,8 @@ monitors: [
       name: 'CF博客',
       method: 'GET',
       target: 'https://blog.662219.xyz',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://blog.662219.xyz',
       timeout: 10000,
     },
 ],	
