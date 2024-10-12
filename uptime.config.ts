@@ -5,7 +5,7 @@ const pageConfig = {
   links: [
     { link: 'https://github.com/pretty3568', label: 'GitHub' },
     { link: 'https://wp.mary.us.kg', label: 'Blog' },
-    { link: 'mailto:ynsc133@gmail.com', label: 'Email Me', highlight: true },
+    { link: 'mailto:pretty3568@ynsc.tk', label: 'Email Me', highlight: true },
   ],
 }
 
