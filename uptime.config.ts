@@ -4,7 +4,7 @@ const pageConfig = {
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://github.com/pretty3568', label: 'GitHub' },
-    { link: 'https://blog.mary.us.kg', label: 'Blog' },
+    { link: 'https://wp.mary.us.kg', label: 'Blog' },
     { link: 'mailto:ynsc133@gmail.com', label: 'Email Me', highlight: true },
   ],
 }
@@ -18,20 +18,20 @@ const workerConfig = {
 monitors: [
     {
       id: 'blog.mary.us.kg',
-      name: 'Notion博客',
+      name: 'WordPress博客',
       method: 'GET',
-      target: 'https://blog.mary.us.kg',
+      target: 'https://wp.mary.us.kg',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://blog.mary.us.kg',
+      statusPageLink: 'https://wp.mary.us.kg',
       timeout: 10000,
     },
     {
-      id: 'blog.662219.xyz',
-      name: 'CF博客',
+      id: 'bk.mary.us.kg',
+      name: 'Halo博客',
       method: 'GET',
-      target: 'https://blog.662219.xyz',
+      target: 'https://bk.mary.us.kg',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://blog.662219.xyz',
+      statusPageLink: 'https://bk.mary.us.kg',
       timeout: 10000,
     },
 ],	
